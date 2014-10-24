@@ -1,3 +1,7 @@
+wojtek_s_dragonis_game:
+    resource: "@WojtekSDragonisGameBundle/Controller/"
+    type:     annotation
+    prefix:   /
 
 fos_user_security:
     resource: "@FOSUserBundle/Resources/config/routing/security.xml"

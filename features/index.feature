@@ -1,7 +1,7 @@
-Feature: Web pages
+Feature: Test index site
 
-  Scenario: Hello world page
-    Given I am on "/home.html"
+  Scenario: Testing index page
+    Given I am on "/"
 
      Then print current URL
      Then print last response
@@ -9,4 +9,4 @@ Feature: Web pages
      Then the response status code should be 200
 
      Then I dump the contents
-     Then I should see "That's it my friend!"
+     Then I should see "Hello on the DragonisGame."
